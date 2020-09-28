@@ -1,3 +1,8 @@
+// code-melon .  prb is if the sum of some elements can be made 0 by any no of operations. these operations contain element - its index.
+// 	Eg. -1,4    (-1-1)+(4-2)=0
+
+
+
 package assignments;
 import java.util.*;
 
@@ -6,6 +11,11 @@ public class partitioning_set {
 	public static void main(String[] args) {
 		Scanner s= new Scanner(System.in);
 		int t= s.nextInt();
+		
+		 int t=0;
+       
+//         if(s.hasNextInt())    ----- ---  -- ----> these lines are for exception handling in online compiler
+//             t=s.nextInt();
 		
 		for(int k=0;k<t; k++) 
 		{
